@@ -1,6 +1,31 @@
+let root = document.getElementById('root');
+
+//SECTION NAVBAR
+let nav = document.createElement('nav');
+nav.classList.add('navbar', 'navbar-expand-md', 'navbar-ligth');
+root.appendChild(nav);
+
+//IMG NAVBAR
+let imgnav = document.createElement('img');
+imgnav.src = './img/Favicon.png';
+nav.appendChild(imgnav);
 
 
-let resultado = fetch("https://memin.io/public/api/v2/users")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* let resultado = fetch("https://memin.io/public/api/v2/users")
   .then((response) => {
     return response.json();
   })
@@ -26,4 +51,4 @@ let resultado = fetch("https://memin.io/public/api/v2/users")
         p.innerText = element.name;
         card_body.appendChild(p);
     });
-  });
+  }); */
